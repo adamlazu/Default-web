@@ -1,0 +1,109 @@
+<!--Mochamad Adam Lazuardi Agung
+Ilmu Komputer 2021-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sign Up Page</title>
+  <style>
+    * {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <nav style="
+        background-color: red;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+      ">
+    <img src="assets/logo.png" alt="iniLogo" style="height: 50px" />
+
+    <a href="#" style="
+          background-color: blue;
+          padding: 10px 10px;
+          border-radius: 10px;
+          color: white;
+        ">Login!</a>
+  </nav>
+
+  <div style="display: flex; justify-content: space-around">
+    <div>
+      <img src="assets/image.jpg" alt="iniGambar" style="height:400px; 
+      width: 400px; 
+      border-width: 5px;" />
+    </div>
+
+    <div style="margin-left: -500px;">
+      <h1>Buat Account Baru!</h1>
+      <h2>Sign Up Form</h2>
+      <form>
+        <div class="formulir" style="display: flex;">
+          <div>
+            <label for="fname">First Name:</label>
+            <br />
+            <input type="text" id="fname" />
+          </div>
+          <br /><br />
+          <div style="margin-left: 10px;">
+            <label for="lname">Last Name:</label>
+            <br />
+            <input type="text" id="lname" />
+          </div>
+          <br /><br />
+        </div>
+
+        <div>
+          <label for="gender">Gender:</label>
+          <br /><br />
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label><br />
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label><br />
+          <input type="radio" id="others" name="gender" value="others" />
+          <label for="others">Other</label>
+          <br /><br />
+        </div>
+
+        <div>
+          <label for="nationality">Nationality:</label>
+          <br /><br />
+          <select id="nationality" name="nationality">
+            <option value="indo">Indonesian</option>
+            <option value="america">American</option>
+            <option value="wakanda">wakandan</option>
+            <option value="other">Others</option>
+          </select>
+          <br /><br />
+        </div>
+
+        <div>
+          <label for="language">Language Spoken:</label>
+          <br /><br />
+          <input type="checkbox" id="language1" name="bahasa" value="bahasa Indonesia" />
+          <label for="language1">Bahasa Indonesia</label><br />
+          <input type="checkbox" id="language2" name="bahasa" value="English" />
+          <label for="language1">English</label><br />
+          <input type="checkbox" id="language3" name="bahasa" value="Other" />
+          <label for="language3">Other</label>
+          <br /><br />
+        </div>
+
+        <div>
+          <label for="bio">Bio:</label>
+          <br /><br />
+          <textarea id="bio" name="bio" cols="40" rows="10"></textarea>
+          <br />
+        </div>
+
+        <div>
+          <button type="submit">Sign Up</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
